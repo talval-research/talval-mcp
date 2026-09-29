@@ -99,6 +99,11 @@ Streamable HTTP at `https://talval.com/mcp`. The server card is published at
 [`/.well-known/mcp.json`](https://talval.com/.well-known/mcp.json) and mirrored
 here as [`server.json`](server.json).
 
+This repository is also an [Agent Plugin](https://agent-plugins.org): the root
+carries [`plugin.json`](plugin.json) and [`mcp.json`](mcp.json), so a client or
+directory that reads that standard can pick the server up without being told
+where to look.
+
 ## Two endpoints
 
 | Endpoint | Auth | What you get |

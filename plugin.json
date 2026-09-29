@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "talval-research",
+  "version": "1.0.0",
+  "description": "Value-investing research on public companies: valuation verdicts, fair-value estimates, quality and safety scores, filed results, stock screens and superinvestor 13F portfolios.",
+  "author": {
+    "name": "Talval Research",
+    "url": "https://talval.com"
+  },
+  "homepage": "https://talval.com",
+  "repository": "https://github.com/talval-research/talval-mcp",
+  "license": "MIT",
+  "keywords": [
+    "investing",
+    "stocks",
+    "valuation",
+    "finance",
+    "research",
+    "13f"
+  ]
+}
