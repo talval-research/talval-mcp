@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.talval/research",
+  "description": "Value-investing research on public companies: valuation verdicts, fair-value estimates, quality and safety scores, filed results, stock screens and superinvestor 13F portfolios. The /mcp endpoint needs no account; /mcp/pro uses OAuth so a subscriber reaches their own plan.",
+  "version": "1.0.0",
+  "websiteUrl": "https://talval.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://talval.com/mcp"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://talval.com/mcp/pro"
+    }
+  ]
+}
