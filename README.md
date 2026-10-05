@@ -1,5 +1,7 @@
 # Talval MCP server
 
+[![M8ven Score](https://m8ven.ai/badge/mcp/talval-research-talval-mcp-1902gq?v=36c52c68177d765a13724589ae57859e&variant=verified)](https://m8ven.ai/mcp/talval-research-talval-mcp-1902gq?s=readme)
+
 Value-investing research on public companies, as tools your agent can call.
 
 **Hosted. Nothing to install, no API key, no account.** Point your MCP client at
